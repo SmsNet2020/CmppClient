@@ -26,7 +26,7 @@ namespace Cmpp.Client.OrdinarySms
 		{
 			CmppClientConfig config = new CmppClientConfig()
 			{
-				ConnNum = 10,
+				ConnNum = 1,
 				ClientId = "Test",
 				Ip = "127.0.0.1",
 				Password = "123456",

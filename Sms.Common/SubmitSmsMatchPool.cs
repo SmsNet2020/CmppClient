@@ -54,7 +54,7 @@ namespace Sms.Common
 				item.DeTime = now;
 				cache.RemoveCacheItem(seq);
 			}
-			return item == null;
+			return item != null;
 		}
 
 

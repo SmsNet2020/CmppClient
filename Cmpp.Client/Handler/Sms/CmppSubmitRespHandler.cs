@@ -10,17 +10,17 @@ using System.Text;
 
 namespace Cmpp.Client.Handler.Sms
 {
-	public class CmppSubmitHandler : SimpleChannelInboundHandler<CmppMessageReceiveArgs<CmppHead, CmppSubmitResp>>
+	public class CmppSubmitRespHandler : SimpleChannelInboundHandler<CmppMessageReceiveArgs<CmppHead, CmppSubmitResp>>
 	{
 		SubmitSmsMatchPool<MsgEx> matchQueue;
 		BaseCmppSmsHandler smsHandler;
-		readonly ClientLogger<CmppSubmitHandler> logger;
+		readonly ClientLogger<CmppSubmitRespHandler> logger;
 
-		public CmppSubmitHandler(BaseCmppSmsHandler smsHandler, SubmitSmsMatchPool<MsgEx> matchQueue, ClientLoggerFactory loggerFactory)
+		public CmppSubmitRespHandler(BaseCmppSmsHandler smsHandler, SubmitSmsMatchPool<MsgEx> matchQueue, ClientLoggerFactory loggerFactory)
 		{
 			this.matchQueue = matchQueue;
 			this.smsHandler = smsHandler;
-			logger = loggerFactory.CreateLogger<CmppSubmitHandler>();
+			logger = loggerFactory.CreateLogger<CmppSubmitRespHandler>();
 		}
 
 		protected override void ChannelRead0(IChannelHandlerContext ctx, CmppMessageReceiveArgs<CmppHead, CmppSubmitResp> msg)

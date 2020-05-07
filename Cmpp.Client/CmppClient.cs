@@ -107,7 +107,7 @@ namespace Cmpp.Client
 
 						pipeline.AddLast("dec", new Cmpp2Decoder(loggerFactory, ushort.MaxValue, 0, 4, -4, 0));
 
-						pipeline.AddLast(eventExecutorGroup, "submit", new CmppSubmitHandler(smsHandler, matchQueue, loggerFactory));
+						pipeline.AddLast(eventExecutorGroup, "submit", new CmppSubmitRespHandler(smsHandler, matchQueue, loggerFactory));
 
 						pipeline.AddLast(eventExecutorGroup, "deliver", new CmppDeliverHandler(smsHandler, loggerFactory));
 
