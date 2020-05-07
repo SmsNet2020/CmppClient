@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Protocol", "Sms.Protocol.Cmpp2\Sms.Protocol.csproj", "{500960EE-9483-4F88-B0C3-1D2DC3390DF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cmpp.Client", "Cmpp.Client\Cmpp.Client.csproj", "{012DC201-DA5E-44AD-B67C-00920854B9F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Common", "Sms.Common\Sms.Common.csproj", "{3F54F684-7D7E-4FB6-A785-E64CA4CCB430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0874F811-E5F2-4570-BAFB-5CBF558D0A3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{72F3D2D6-2109-4F6C-8257-F8C52C96FCE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cmpp.Client.OrdinarySms", "Cmpp.Client.OrdinarySms\Cmpp.Client.OrdinarySms.csproj", "{F63D7427-8F7B-47A2-A1E2-141ED9D69F53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{500960EE-9483-4F88-B0C3-1D2DC3390DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500960EE-9483-4F88-B0C3-1D2DC3390DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500960EE-9483-4F88-B0C3-1D2DC3390DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500960EE-9483-4F88-B0C3-1D2DC3390DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012DC201-DA5E-44AD-B67C-00920854B9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012DC201-DA5E-44AD-B67C-00920854B9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012DC201-DA5E-44AD-B67C-00920854B9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012DC201-DA5E-44AD-B67C-00920854B9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F54F684-7D7E-4FB6-A785-E64CA4CCB430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F54F684-7D7E-4FB6-A785-E64CA4CCB430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F54F684-7D7E-4FB6-A785-E64CA4CCB430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F54F684-7D7E-4FB6-A785-E64CA4CCB430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63D7427-8F7B-47A2-A1E2-141ED9D69F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63D7427-8F7B-47A2-A1E2-141ED9D69F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63D7427-8F7B-47A2-A1E2-141ED9D69F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63D7427-8F7B-47A2-A1E2-141ED9D69F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{500960EE-9483-4F88-B0C3-1D2DC3390DF1} = {0874F811-E5F2-4570-BAFB-5CBF558D0A3D}
+		{012DC201-DA5E-44AD-B67C-00920854B9F1} = {0874F811-E5F2-4570-BAFB-5CBF558D0A3D}
+		{3F54F684-7D7E-4FB6-A785-E64CA4CCB430} = {0874F811-E5F2-4570-BAFB-5CBF558D0A3D}
+		{F63D7427-8F7B-47A2-A1E2-141ED9D69F53} = {72F3D2D6-2109-4F6C-8257-F8C52C96FCE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB151293-2694-44A2-933C-A53884C3D5AE}
+	EndGlobalSection
+EndGlobal
