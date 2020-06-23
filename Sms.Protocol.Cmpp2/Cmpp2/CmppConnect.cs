@@ -79,5 +79,7 @@ namespace Sms.Protocol.Cmpp2
                 $"{nameof(Version)}={Version}, " +
                 $"{nameof(TimeStamp)}={TimeStamp}}}";
         }
+
+
     }
 }
