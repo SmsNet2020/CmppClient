@@ -12,7 +12,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Cmpp.Client\Cmpp.Client.csproj" />
     <ProjectReference Include="..\Sms.Common\Sms.Common.csproj" />
-    <ProjectReference Include="..\Sms.Protocol.Cmpp2\Sms.Protocol.csproj" />
   </ItemGroup>
 
 </Project>
