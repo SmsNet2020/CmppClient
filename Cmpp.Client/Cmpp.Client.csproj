@@ -8,7 +8,6 @@
     <PackageReference Include="DotNetty.Handlers" Version="0.6.0" />
     <PackageReference Include="DotNetty.Transport" Version="0.6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.3" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.3" />
     <PackageReference Include="Polly" Version="7.2.1" />
     <PackageReference Include="Sms.Protocol" Version="1.0.0" />
   </ItemGroup>
